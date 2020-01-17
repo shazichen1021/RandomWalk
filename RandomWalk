@@ -47,7 +47,7 @@ while active:
         plt.show()
     elif showing_choice == 'save':
         filename = input('Please input your filename:')
-        info = filename + '.png'
+        info = filename + '.svg'
         plt.savefig(info)
     else:
         raise InputError('Unsupported input instruction')
